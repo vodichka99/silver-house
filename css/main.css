@@ -64,7 +64,7 @@
   width: 1110px;
   min-height: 200px;
   margin: 0 auto;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
@@ -95,4 +95,29 @@
 .content a{
   margin-top: 40px;
   display: flex;
+}
+/* footer */
+.footer{
+  width: 1110px;
+  min-height: 100px;
+  background: #f0f0f0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.footer__contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer__contact span{
+  font-size: 16px;
+  color: #808080;
+}
+.footer__contact a{
+  font-size: 25px;
+  font-weight: 700;
+  color: #808080;
 }
